@@ -6,6 +6,7 @@
 Welcome to amebaDocs's documentation!
 =====================================
 This is the Ameba MicroPython online documentation
+|image1|
 
 .. toctree::
    :maxdepth: 2
@@ -23,3 +24,8 @@ Search
 ==================
 
 * :ref:`search`
+
+
+.. |image1| image:: imageIndex.jpg
+   :width: 5.44028in
+   :height: 2.90486in
