@@ -3,23 +3,22 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to amebaDocs's documentation!
+API Reference
 =====================================
-This is the Ameba MicroPython online documentation
 
 .. toctree::
    :maxdepth: 2
-   :caption: Table of Contents:
-   
-   gettingStarted/getting_started
-   API <api/index>
-   HDK
-   Download
-   Resource
-   Support
-   
+   :caption: API reference and examples:
 
-Search
-==================
+   MicroPython_ADC
+   MicroPython_I2C
+   MicroPython_Pin
+   MicroPython_PWM
+   MicroPython_RTC
+   MicroPython_SPI
+   MicroPython_time
+   MicroPython_Timer
+   MicroPython_UART
+   MicroPython_WiFi
+   MicroPython_Socket
 
-* :ref:`search`

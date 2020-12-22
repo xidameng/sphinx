@@ -1,4 +1,3 @@
-===
 Pin
 ===
 
@@ -34,6 +33,23 @@ paste mode (for more information about REPL and paste mode, check
 on any blank space of the terminal and paste the code into REPL, then
 press Ctrl + d to execute the code. If everything is order, you should
 be able to see the LED blink for 3 times in 3 seconds.
+
+
+>>> from machine import Pin
+>>> a = Pin("PB_22", Pin.OUT)
+>>> a.value(1)
+>>> time.sleep_ms(500)
+>>> a.value(0)
+>>> time.sleep_ms(500)
+>>> a.on()
+>>> time.sleep_ms(500)
+>>> a.off()
+>>> time.sleep_ms(500)
+>>> a.toggle()
+>>> time.sleep_ms(500)
+>>> a.toggle()
+
+
 
 **Constructors**
 
@@ -104,6 +120,6 @@ This method sends a logic 0 signal to the associated pin
 
 This method toggles the logic signal of the associated pin
 
-.. |get-start-17| image:: media/image1.png
+.. |get-start-17| image:: media/imagePin.png
    :width: 5.46696in
    :height: 5.10294in

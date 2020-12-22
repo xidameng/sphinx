@@ -1,6 +1,6 @@
-====
 WiFi
 ====
+
 
 **class WLAN – Wireless Local Area Network**
 
@@ -21,6 +21,12 @@ Materials:
    additional hardware, thus simply copy, and paste the following code
    into REPL to see its effect.
 
+
+>>> from wireless import WLAN
+>>> wifi = WLAN(mode = WLAN.STA)
+>>> wifi.scan()
+
+
 -  **WiFi Connect:**
 
 Materials:
@@ -36,6 +42,11 @@ Materials:
    household wireless routers. Here we are going to connect to a WiFi
    access point using code below, copy and paste the following code line
    by line into REPL to see their effects.
+
+>>> from wireless import WLAN
+>>> wifi = WLAN(mode = WLAN.STA)
+>>> wifi.connect(ssid = "YourWiFiName", pswd = "YourWiFiPassword")
+
 
 **Constructors**
 
