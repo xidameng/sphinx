@@ -4,25 +4,24 @@
 
 **Tools needed:**
 
-	- Python3
-
+- Python3
 		https://www.python.org/downloads/
 
-	- sphinx
+- sphinx
 
-		```Python
-		pip install -U sphinx
-		```
+	```Bash
+	pip install -U sphinx
+	```
 
-	- sphinx rtd theme
+- sphinx rtd theme
 	
-		```Python
-		pip install sphinx-rtd-theme
-		```
+	```Bash
+	pip install sphinx-rtd-theme
+	```
 
-	- pandoc
+- pandoc
 
-		https://pandoc.org/installing.html
+	https://pandoc.org/installing.html
 
 
 2. Clean the directory
@@ -43,4 +42,5 @@
 7. Push changes to github
 
 8. Build docs using Readthedocs online hosting service
-	https://readthedocs.org/
+
+https://readthedocs.org/
