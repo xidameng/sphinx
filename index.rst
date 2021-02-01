@@ -18,6 +18,8 @@ This is the Ameba MicroPython online documentation
    Download
    Resource
    Support
+   arduino/ClassWiFi
+   arduino/RTCAlarm
    
 
 Search
